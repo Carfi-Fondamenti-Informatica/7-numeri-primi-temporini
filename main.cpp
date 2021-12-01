@@ -5,7 +5,7 @@ using namespace std;
 
 
 int main() {
-    int ;
+    int a ;
     cin >> a;
     if(nprimo(a-1,a) == 0){
         cout << "numero non primo" << endl;
