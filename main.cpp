@@ -5,9 +5,9 @@ using namespace std;
 
 
 int main() {
-    int a;
+    int ;
     cin >> a;
-    if(nprimo((a-1),a) == 0){
+    if(nprimo(a-1,a) == 0){
         cout << "numero non primo" << endl;
     }else{
         cout << "numero primo" << endl;
