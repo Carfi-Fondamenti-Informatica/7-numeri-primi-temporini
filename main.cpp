@@ -1,5 +1,17 @@
 #include <iostream>
+#include "lib.h"
 
-int main(){
-  return 0;
+using namespace std;
+
+
+int main() {
+    int a;
+    cin >> a;
+    if(nprimo((a-1),a) == 0){
+        cout << "numero non primo" << endl;
+    }else{
+        cout << "numero primo" << endl;
+    }
+
+    return 0;
 }
